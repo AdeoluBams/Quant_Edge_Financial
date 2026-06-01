@@ -17,7 +17,7 @@ This is an end-to-end analysis for "Quant_Edge" A Financial & Digital trading pl
 - [References](#references)
 
 ## Data Sources
-
+Quant_Edge_Data: The primary dataset used for this analysis is the "financial_trading_data.csv" file, containing detailed finacial information of the platform.
 
 ## Tools
 - Excel - Data Cleaning
