@@ -4,7 +4,7 @@
 This is an end-to-end analysis for "Quant_Edge" A Financial & Digital trading platform, that offers stodk trading, porfolio analytics and investment insights. This project features the following analysis.
 - Profitability Analysis
 - Customer Analysis
-- Trading Performanca Analysis
+- Trading Performance Analysis
 - Risk Management Analysis
 - Customer retention Analysis
 
