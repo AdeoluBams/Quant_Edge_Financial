@@ -1,14 +1,20 @@
 # Quant_Edge_Financial
 
-## Table of Contents
-
 ## Project Overview
-This is an end-to-end analysis for "Qunant_Edge" A Financial & Digital trading platform, that offers stodk trading, porfolio analytics and investment insights. This project features the following analysis.
+This is an end-to-end analysis for "Quant_Edge" A Financial & Digital trading platform, that offers stodk trading, porfolio analytics and investment insights. This project features the following analysis.
 - Profitability Analysis
 - Customer Analysis
 - Trading Performanca Analysis
 - Risk Management Analysis
 - Customer retention Analysis
+
+## Table of Contents
+- [Data Sources](#data_sources)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [Query Highlight](#query-highlight)
+- [Findings](#findings)
+- [References](#references)
 
 ## Data Sources
 
@@ -111,8 +117,7 @@ WITH no_of_account AS (
 SELECT
 	p.platform_used,
 	ROUND(
-	COUNT(DISTINCT p.account_id) * 100.0/ n.total_accounts
-	,2) AS perc_with_sus_activity
+	COUNT(DISTINCT p.account_id) * 100.0/ n.total_accounts ,2) AS perc_with_sus_activity
 FROM public."Quant_Financial" p
 CROSS JOIN no_of_account n    					
 WHERE suspicious_activity_flag = 'Yes'
@@ -128,5 +133,9 @@ ORDER BY perc_with_sus_activity DESC;
 - Stocks is the most traded class, it was traded 6291 times.
 - Risk profile analysis shows that High Risk traders are the most profitable
 -  Middle_Aged Adults (age 26 - 50) are the most active on the platform 
-
+-  [Download Full Report]()
+  
 ## References
+[Stack Overflow](https://stackoverflow.com/)
+
+
