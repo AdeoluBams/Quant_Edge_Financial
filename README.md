@@ -1,7 +1,7 @@
 # Quant_Edge_Financial
 
 ## Project Overview
-This is an end-to-end analysis for "Quant_Edge" A Financial & Digital trading platform, that offers stodk trading, porfolio analytics and investment insights. This project features the following analysis.
+This is an end-to-end analysis for "Quant_Edge" A Financial & Digital trading platform, that offers stock trading, portfolio analytics and investment insights. This project features the following analysis.
 - Profitability Analysis
 - Customer Analysis
 - Trading Performance Analysis
